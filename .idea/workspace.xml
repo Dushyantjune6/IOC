@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef1111c7-7cff-4d5e-bde6-5a08cc432318" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Dependency_Injection/BeanLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Dependency_Injection/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Dependency_Injection/beans/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Dependency_Injection/beans/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Dependency_Injection/beans/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Dependency_Injection/beans/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Dependency_Injection/ConstructorBasedDI/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Dependency_Injection/ConstructorBasedDI/beans/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ConstructorBasedSpring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +26,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Dushyantjune6"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/Dushyantjune6/IOC.git",
@@ -55,13 +52,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.org.Dependency_Injection.ConstructorBasedDI.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "XML-based-dependecy-injection",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "E:/Java_Git/IOC_DI/IOC_DI/src/main/java/org/Dependency_Injection/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.org.Dependency_Injection.ConstructorBasedDI.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Dependency_Injection.Main" />
       <module name="IOC_DI" />
@@ -75,8 +73,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.Dependency_Injection.ConstructorBasedDI.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Dependency_Injection.ConstructorBasedDI.Main" />
+      <module name="IOC_DI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Dependency_Injection.ConstructorBasedDI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.Dependency_Injection.ConstructorBasedDI.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
