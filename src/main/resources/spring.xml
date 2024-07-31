@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="student" class="org.Dependency_Injection.beans.Student">
+        <property name="name" value="Dushyant Malviya"></property>
+        <property name="className" value="12th"></property>
+        <property name="RollNumber" value="12"></property>
+    </bean>
+    <bean id="teacher" class="org.Dependency_Injection.beans.Teacher">
+        <property name="name" value="CGH"></property>
+        <property name="department" ref="department"></property>
+    </bean>
+
+    <bean id="department" class="org.Dependency_Injection.beans.Department">
+        <property name="departmentName" value="CSE"></property>
+        <property name="strength" value="120"></property>
+    </bean>
+
+</beans>
